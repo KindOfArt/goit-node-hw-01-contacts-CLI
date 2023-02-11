@@ -1,0 +1,24 @@
+{
+  "name": "goit-node-hw-01-contacts-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon contacts"
+  },
+  "repository": "git+https://github.com/KindOfArt/goit-node-hw-01-contacts-CLI.git",
+  "author": "Anton <designedbyart1808@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KindOfArt/goit-node-hw-01-contacts-CLI/issues"
+  },
+  "homepage": "https://github.com/KindOfArt/goit-node-hw-01-contacts-CLI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}
