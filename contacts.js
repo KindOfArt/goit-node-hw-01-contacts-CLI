@@ -45,8 +45,6 @@ async function addContact(name, email, phone) {
 
   const list = await listContacts();
 
-  console.table(list);
-
   let id;
 
   while (true) {
